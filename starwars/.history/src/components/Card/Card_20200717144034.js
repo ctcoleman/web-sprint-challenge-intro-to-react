@@ -21,7 +21,7 @@ export function Card({ pokemon, url }) {
         <Image src={image} />
       </div>
       <Caption className='Card-caption'>
-        <h2>Abilities</h2>
+        <h2>Abilities
         <CaptionParagraph></CaptionParagraph>
       </Caption>
     </Article>

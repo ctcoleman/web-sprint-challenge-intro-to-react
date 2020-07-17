@@ -24,8 +24,7 @@ export const Caption = styled.div`
   text-align: center;
 `
 export const CaptionParagraph = styled.p`
-  height: 300px;
-  background: #b56713;
+  height: 
   text-align: center;
   padding: 10px;
 `
