@@ -11,7 +11,7 @@ export function Card({ pokemon, url }) {
         setImage(res.data.sprites.front_default)
       })
       .catch(err => console.log(err))
-  }, [image])
+  }, { image })
   return (
     <Article className='Card'>
       <Header>
