@@ -11,7 +11,7 @@ export const Article = styled.article`
   transition: transform 700ms ease-in-out;
 
   &:hover {
-    transform: rotate(360deg)
+    transform: translate(2px, 150px) rotate(360deg)
   }
 `
 export const Header = styled.header`

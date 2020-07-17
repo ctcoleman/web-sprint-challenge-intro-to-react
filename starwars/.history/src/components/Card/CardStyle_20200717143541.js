@@ -8,10 +8,10 @@ export const Article = styled.article`
   margin-bottom: 60px;
   margin-left: 20%;
   margin-right: 20%;
-  transition: transform 700ms ease-in-out;
+  transition: transform ms ease-in-out;
 
   &:hover {
-    transform: rotate(360deg)
+    transform: translate(200px, 150px) rotate(360deg)
   }
 `
 export const Header = styled.header`
